@@ -16,9 +16,132 @@
   <body>
     <div class="main-container">
       <div class="modal-1">
-        <h1>Shopping cart</h1>
+        <div class="modal_header">
+          <h1>Shopping cart</h1>
+          <button class="button_icon">
+            <img
+              src="./img/svg/ic-actions-close-simple.svg"
+              alt="button icon"
+            />
+          </button>
+        </div>
+        <div class="component-wrap">
+          <div class="product_card">
+            <div class="product_pic">
+              <img
+                src="/img/product1.jpg"
+                alt="product image"
+                class="product_image"
+              />
+
+              <button class="wish_button button_icon">Wishlist</button>
+              <button class="compare_button button_icon">Compare</button>
+              <button class="remove_button button_icon">Remove</button>
+            </div>
+            <div class="product_content">
+              <h2 class="product_title">Product title</h2>
+              <div class="product_row">
+                <div class="product_param">Farm:</div>
+                <div class="product_value">Tharamis Farm</div>
+              </div>
+              <div class="product_row">
+                <div class="product_param">Freshness:</div>
+                <div class="product_value">1 day old</div>
+              </div>
+              <div class="product_rating">
+                &#x2605;&#x2605;&#x2605;&#x2605;&#x2606;
+              </div>
+              <div class="price-btn_wrap">
+                <div class="prices">
+                  <div class="discount_price">36.99 USD</div>
+                  <div class="full_price">48.56 USD</div>
+                </div>
+                <div class="pieces_btn">
+                  <input type="text" placeholder="1 pcs" />
+                  <select class="value btn">
+                    <option value="Pcs">Pcs</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_pic">
+              <img
+                src="/img/product1.jpg"
+                alt="product image"
+                class="product_image"
+              />
+
+              <button class="wish_button button_icon">Wishlist</button>
+              <button class="compare_button button_icon">Compare</button>
+              <button class="remove_button button_icon">Remove</button>
+            </div>
+            <div class="product_content">
+              <h2 class="product_title">Product title</h2>
+              <div class="product_row">
+                <div class="product_param">Farm:</div>
+                <div class="product_value">Tharamis Farm</div>
+              </div>
+              <div class="product_row">
+                <div class="product_param">Freshness:</div>
+                <div class="product_value">1 day old</div>
+              </div>
+              <div class="product_rating">
+                &#x2605;&#x2605;&#x2605;&#x2605;&#x2606;
+              </div>
+              <div class="price-btn_wrap">
+                <div class="prices">
+                  <div class="discount_price">36.99 USD</div>
+                  <div class="full_price">48.56 USD</div>
+                </div>
+                <div class="pieces_btn">
+                  <input type="text" placeholder="1 pcs" />
+                  <select class="value btn">
+                    <option value="Pcs">Pcs</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 class="subtotal_heading">Subtotal</h3>
+        <div class="total_price">73.98 USD</div>
+        <div class="modal_footer">
+          <button class="continue">Continue shopping</button>
+          <button class="checkout">Go to Checkout</button>
+        </div>
       </div>
-      <div class="modal-2"></div>
+      <div class="modal-2">
+        <div class="modal_header">
+          <h1>Join our list</h1>
+          <button class="button_icon">
+            <img
+              src="./img/svg/ic-actions-close-simple.svg"
+              alt="button icon"
+            />
+          </button>
+        </div>
+        <p class="desc">
+          Signup to be the first to hear about exclusive deals, special offers,
+          recepies from our masters and others.
+        </p>
+        <div class="advantages">
+          <div class="advantage_item">Exclusive deals</div>
+          <div class="advantage_item">Special offers</div>
+          <div class="advantage_item">Premium recepies</div>
+          <div class="advantage_item">Tips and tricks</div>
+          <div class="advantage_item">Farmers stories</div>
+        </div>
+        <div class="subscribe_wrap">
+          <input
+            type="text"
+            class="subscribe_input"
+            placeholder="Your email address"
+          />
+          <button class="subscribe_btn">Subscribe</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
