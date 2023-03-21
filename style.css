@@ -61,12 +61,15 @@ h1 {
   color: #151515;
   border: 0;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
-.button_icon:hover::before {
+.close_icon:hover:before {
   content: "Close";
   color: #d1d1d1;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -74,4 +77,82 @@ h1 {
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding-right: 4px;
+}
+
+.product_card {
+  margin-top: 24px;
+  display: flex;
+}
+
+.product_content {
+  margin-left: 16px;
+}
+
+.product_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+}
+
+.product_row {
+  display: flex;
+  margin-top: 4px;
+}
+
+.product_param {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a9a9a9;
+  width: 74px;
+  margin-bottom: 3px;
+}
+
+.product_value {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #151515;
+}
+
+.product_rating {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 2px;
+}
+
+.star_icon {
+  width: 16px;
+  height: 16px;
+}
+
+.discount_price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #6a983c;
+  margin-top: 17.6px;
+}
+
+.full_price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: #a9a9a9;
 }
