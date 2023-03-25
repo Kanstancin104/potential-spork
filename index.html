@@ -37,10 +37,107 @@
                 alt="product image"
                 class="product_image"
               />
+              <div class="product_buttons">
+                <button class="button_icon product_btn">
+                  <img src="/img/svg/ic-actions-heart.svg" alt="heart icon" />
+                  Wishlist
+                </button>
+                <button class="button_icon product_btn">
+                  <img
+                    src="/img/svg/ic-layout-picture-right.svg"
+                    alt="compare icon"
+                  />
+                  Compare
+                </button>
+                <button class="button_icon product_btn">
+                  <img
+                    src="/img/svg/ic-actions-close-small.svg"
+                    alt="remove icon"
+                  />
+                  Remove
+                </button>
+              </div>
+            </div>
 
-              <button class="wish_button button_icon">Wishlist</button>
-              <button class="compare_button button_icon">Compare</button>
-              <button class="remove_button button_icon">Remove</button>
+            <div class="product_content">
+              <h2 class="product_title">Product title</h2>
+              <div class="product_row">
+                <div class="product_param">Farm:</div>
+                <div class="product_value">Tharamis Farm</div>
+              </div>
+              <div class="product_row">
+                <div class="product_param">Freshness:</div>
+                <div class="product_value">1 day old</div>
+              </div>
+              <div class="product_rating">
+                <img
+                  class="star_icon"
+                  src="/img/svg/blackstar.svg"
+                  alt="blackstaricon"
+                />
+                <img
+                  class="star_icon"
+                  src="/img/svg/blackstar.svg"
+                  alt="blackstaricon"
+                />
+                <img
+                  class="star_icon"
+                  src="/img/svg/blackstar.svg"
+                  alt="blackstaricon"
+                />
+                <img
+                  class="star_icon"
+                  src="/img/svg/blackstar.svg"
+                  alt="blackstaricon"
+                />
+                <img
+                  class="star_icon"
+                  src="/img/svg/whitestar.svg"
+                  alt="whitestaricon"
+                />
+              </div>
+              <div class="price-btn_wrap">
+                <div class="prices">
+                  <div class="discount_price">36.99 USD</div>
+                  <div class="full_price">48.56 USD</div>
+                </div>
+                <div class="pieces_btn">
+                  <input type="text" placeholder="1 pcs" />
+                  <div class="pieces_divider"></div>
+                  <select class="value_btn">
+                    <option value="Pcs">Pcs</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product_card">
+            <div class="product_pic">
+              <img
+                src="/img/product1.jpg"
+                alt="product image"
+                class="product_image"
+              />
+              <div class="product_buttons">
+                <button class="button_icon product_btn">
+                  <img src="/img/svg/ic-actions-heart.svg" alt="heart icon" />
+                  Wishlist
+                </button>
+                <button class="button_icon product_btn">
+                  <img
+                    src="/img/svg/ic-layout-picture-right.svg"
+                    alt="compare icon"
+                  />
+                  Compare
+                </button>
+                <button class="button_icon product_btn">
+                  <img
+                    src="/img/svg/ic-actions-close-small.svg"
+                    alt="remove icon"
+                  />
+                  Remove
+                </button>
+              </div>
             </div>
             <div class="product_content">
               <h2 class="product_title">Product title</h2>
@@ -86,46 +183,8 @@
                 </div>
                 <div class="pieces_btn">
                   <input type="text" placeholder="1 pcs" />
-                  <select class="value btn">
-                    <option value="Pcs">Pcs</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="product_card">
-            <div class="product_pic">
-              <img
-                src="/img/product1.jpg"
-                alt="product image"
-                class="product_image"
-              />
-
-              <button class="wish_button button_icon">Wishlist</button>
-              <button class="compare_button button_icon">Compare</button>
-              <button class="remove_button button_icon">Remove</button>
-            </div>
-            <div class="product_content">
-              <h2 class="product_title">Product title</h2>
-              <div class="product_row">
-                <div class="product_param">Farm:</div>
-                <div class="product_value">Tharamis Farm</div>
-              </div>
-              <div class="product_row">
-                <div class="product_param">Freshness:</div>
-                <div class="product_value">1 day old</div>
-              </div>
-              <div class="product_rating">
-                &#x2605;&#x2605;&#x2605;&#x2605;&#x2606;
-              </div>
-              <div class="price-btn_wrap">
-                <div class="prices">
-                  <div class="discount_price">36.99 USD</div>
-                  <div class="full_price">48.56 USD</div>
-                </div>
-                <div class="pieces_btn">
-                  <input type="text" placeholder="1 pcs" />
-                  <select class="value btn">
+                  <div class="pieces_divider"></div>
+                  <select class="value_btn">
                     <option value="Pcs">Pcs</option>
                   </select>
                 </div>
@@ -133,8 +192,11 @@
             </div>
           </div>
         </div>
-        <h3 class="subtotal_heading">Subtotal</h3>
-        <div class="total_price">73.98 USD</div>
+        <div class="subtotal_wrapp">
+          <h3 class="subtotal_heading">Subtotal</h3>
+          <div class="total_price">73.98 USD</div>
+        </div>
+        <hr />
         <div class="modal_footer">
           <button class="continue">Continue shopping</button>
           <button class="checkout">Go to Checkout</button>
